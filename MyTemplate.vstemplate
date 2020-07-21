@@ -1,0 +1,36 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>ProjektSFML - Screens Update</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>VC</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>ProjektSFML - Screens Update</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="ProjektSFML.vcxproj" File="ProjektSFML.vcxproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="false" TargetFileName="$projectname$.vcxproj.filters">ProjektSFML.vcxproj.filters</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Enemies.cpp">Enemies.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Game.cpp">Game.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Main.cpp">Main.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Menu.cpp">Menu.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Player.cpp">Player.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Weapons.cpp">Weapons.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="cScreen.h">cScreen.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Enemies.h">Enemies.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Game.h">Game.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Menu.h">Menu.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Player.h">Player.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Screens.h">Screens.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="State.h">State.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="StateMachine.h">StateMachine.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Weapons.h">Weapons.h</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
